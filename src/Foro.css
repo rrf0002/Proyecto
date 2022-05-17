@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {font-family: 'Roboto', sans-serif;}
+/* The sidepanel menu */
+.sidemenu {
+  height: 100vh; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background: #1a565d;
+  
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+.btnclas{
+  transition: 0.5s;
+}
+.dashboard-nav-dropdown-item{
+  padding-left:60px !important;
+  display: flex !important;
+  cursor: pointer;
+}
+/* The sidepanel links */
+.sidemenu a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #9eadae;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidemenu a:hover {
+  color: #f1f1f1;
+}
+.dashboard-nav-dropdown-item:hover{
+  color: #f1f1f1 !important;
+}
+/* Position and style the close button (top right corner) */
+.sidemenu .cerrar {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.btn-open {
+  font-size: 20px;
+  cursor: pointer;
+  background: #1a565d;
+  color: #ddd;
+  
+  padding: 10px 15px 10px 12px;
+  border: none;
+  transition: all 1s;
+}
+
+.btn-open:hover {
+  background: rgba(26, 86, 93, .8);
+}
+.btn-open:focus {
+  outline: none;
+}
+#main {
+  transition: margin-left .5s;
+  
+}
+#btn{
+  background-color: #1A565D;
+  width: 100%;
+  height: 50px;
+  display:block;
+}
+
+.container {
+  margin-top:10px;
+}
+
+.cerrar_sesion{
+  border-top: solid rgba(0, 0, 0, 0.12) 2px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.border-success{
+background-color: #ededed33;
+border: 2px solid;
+border-radius:10px;
+}
+
+
+

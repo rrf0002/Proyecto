@@ -1,0 +1,27 @@
+#imagen_anadir{
+    width:10%
+}
+
+main{
+    text-align: center;
+    margin-right: 4%;
+    margin-left: 0%;
+}
+
+#seleccionar_opcion{
+    width: 40%;
+    border: 1px solid black;
+}
+
+#seleccionar_opcion img{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#foto_paisaje{
+    width: 15%;
+}
+
+#foto_texto{
+    width: 10%;
+}
